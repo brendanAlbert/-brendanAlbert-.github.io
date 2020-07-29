@@ -375,6 +375,11 @@ h6 {
 	width: 30px;
 }
 
+.small-icon {
+	height: 55px;
+	width: 55px;
+}
+
 .post-footer {
 	display: flex;
 	justify-content: space-between;
@@ -572,6 +577,27 @@ h6 {
 
 .background {
 	background: linear-gradient(rgba(33, 33, 33, 0), rgba(33, 33, 33, 1)),
-		url("../images/binary_sm.png");
+		url("./images/binary_sm.png");
 	width: 100%;
+}
+
+#toast {
+	color: var(--secondaryText);
+}
+
+.links-wrapper {
+	min-height: 66px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+.titan-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* background-color: #fff; */
+	width: 25%;
+	height: 9%;
+	margin: 0 auto;
 }

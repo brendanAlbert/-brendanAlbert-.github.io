@@ -98,6 +98,13 @@
 								with a Bachelor's of Science in Computer
 								Science.
 							</p>
+							<div class="titan-wrapper">
+								<img
+									class="small-icon"
+									id="js_icon"
+									src="./icons/titans.png"
+								/>
+							</div>
 							<p>
 								I'm a fullstack developer with 5 years of
 								programming and web development experience.
@@ -215,9 +222,9 @@
 								class="icon"
 								src="./icons/entity_framework.png"
 							/>
-							<img class="icon" src="./icons/flask.png" />
+							<img class="icon" src="./icons/flask3.png" />
 							<img class="icon" src="./icons/typescript.png" />
-							<img class="icon" src="./icons/react3.png" />
+							<img class="icon" src="./icons/react2.png" />
 						</div>
 					</div>
 				</div>
@@ -232,6 +239,7 @@
 							<div>
 								<div class="post">
 									<img
+										loading="lazy"
 										class="thumbnail"
 										src="./images/wrinkle_brain_games.png"
 										alt=""
@@ -257,7 +265,18 @@
 											styling.
 										</p>
 										<div class="post-footer">
-											<a href="">learn more</a>
+											<div class="links-wrapper">
+												<a
+													target="_blank"
+													href="http://52.26.214.136:4200"
+													>see app</a
+												>
+												<a
+													target="_blank"
+													href="https://github.com/brendanAlbert/partygame"
+													>view code</a
+												>
+											</div>
 											<div
 												class="post-footer-icons-wrapper"
 											>
@@ -308,6 +327,7 @@
 							<div>
 								<div class="post">
 									<img
+										loading="lazy"
 										style="object-position: top;"
 										class="thumbnail"
 										src="./images/hacker_lounge.png"
@@ -318,28 +338,41 @@
 											hacker memory game
 										</h5>
 										<p class="post-intro">
-											Available on the wrinkle brain games
-											platform is a memory game called
-											'hacker memory game'. Using a
-											cyberpunk aesthetic, the player must
-											progress through as many rounds as
-											possible in order to earn the title
-											of best hacker.
+											A memory game available on the
+											wrinkle brain games platform. Using
+											a cyberpunk aesthetic, the player
+											goes toe-to-toe against an A.I.
+											firewall trying to keep the player
+											out of the system. Players
+											('Hackers') with high scores are
+											displayed in the Hacker Lounge.
 										</p>
 
 										<p class="post-tech">
-											95% a frontend game, the styling is
-											CSS3 and Bootstrap. The animations
-											use the anime.js library. The game
-											logic is written in JavaScript to
-											record the "bot's" moves and the
-											"hacker's" moves. When the A.I.
-											catches the player because they
-											forgot the order, their progress is
-											persisted to a Sqlite database.
+											Mostly a frontend game, the styling
+											is CSS3 and Bootstrap. The
+											animations use the anime.js library.
+											The game logic is written in
+											JavaScript to record the "bot's"
+											moves and the "hacker's" moves. When
+											the A.I. catches the player because
+											they forgot the order, their
+											progress is persisted to a Sqlite
+											database.
 										</p>
 										<div class="post-footer">
-											<a href="">learn more</a>
+											<div class="links-wrapper">
+												<a
+													target="_blank"
+													href="http://52.26.214.136:4200"
+													>see app</a
+												>
+												<a
+													target="_blank"
+													href="https://github.com/brendanAlbert/partygame"
+													>view code</a
+												>
+											</div>
 											<div
 												class="post-footer-icons-wrapper"
 											>
@@ -377,6 +410,7 @@
 							<div>
 								<div class="post">
 									<img
+										loading="lazy"
 										style="object-position: top;"
 										class="thumbnail"
 										src="./images/wine-cellar.png"
@@ -398,13 +432,21 @@
 											Custom + responsive UI/UX. The
 											frontend uses the web trifecta,
 											HTML, CSS and JavaScript. The
-											backend makes use of Google's
-											Firebase to store wine information.
-											To store the wine images, an AWS S3
-											bucket is used.
+											backend uses Google's Firebase to
+											store wine information. Wine images
+											are served from an AWS S3 bucket.
 										</p>
 										<div class="post-footer">
-											<a href="">learn more</a>
+											<div class="links-wrapper">
+												<a
+													target="_blank"
+													href="https://winecellar-1bafd.web.app/"
+													>see app</a
+												>
+												<a target="_blank" href=""
+													>view code</a
+												>
+											</div>
 											<div
 												class="post-footer-icons-wrapper"
 											>
@@ -439,6 +481,7 @@
 							<div>
 								<div class="post">
 									<img
+										loading="lazy"
 										class="thumbnail"
 										src="./images/sc2_guessing_game.png"
 										alt=""
@@ -460,7 +503,6 @@
 											database.
 										</p>
 										<div class="post-footer">
-											<a href="">learn more</a>
 											<div
 												class="post-footer-icons-wrapper"
 											>
@@ -495,6 +537,7 @@
 							<div>
 								<div class="post">
 									<img
+										loading="lazy"
 										class="thumbnail"
 										src="./images/banking_security_app.png"
 										alt=""
@@ -504,17 +547,20 @@
 											secure banking app
 										</h5>
 										<p class="post-intro">
-											During my last semester at Fullerton
-											I took a web security class. We
+											I took a web security class during
+											my last semester at Fullerton. We
 											learned about many of the
-											vulnerabilties that come with the
-											territory of using JavaScript in a
-											web application. Sealing and
-											freezing JavaScript objects, how to
-											secure your app against types of
-											cross-site scripting attacks and
-											ensuring you sanitize inputs, and
-											much more.
+											vulnerabilties inherent with using
+											JavaScript in an application. We
+											learned to seal and freeze objects,
+											how to secure against XSS attacks,
+											sanitizing inputs, check for NaNs
+											and undefineds, avoid implicit
+											conversions, use 'strict mode' and
+											other JavaScript gotchas. Basically,
+											avoid ever writing a banking
+											application in JavaScript was an
+											important take away.
 										</p>
 
 										<p class="post-tech">
@@ -528,7 +574,6 @@
 											stored in a MariaDB database.
 										</p>
 										<div class="post-footer">
-											<a href="">learn more</a>
 											<div
 												class="post-footer-icons-wrapper"
 											>
@@ -563,6 +608,7 @@
 							<div>
 								<div class="post">
 									<img
+										loading="lazy"
 										style="object-position: top;"
 										class="thumbnail"
 										src="./images/farmzoids.png"
@@ -576,23 +622,22 @@
 											The capstone of my Artificial
 											Intelligence class was a group
 											project where we programmed some
-											bots to plant and harvest on a small
-											little farm. These bots were called
-											farmzoids. We gave them directives
-											to fetch water, plant seeds, harvest
-											fruit when it was ready. It's fun
-											watching them travel around the farm
-											going about their business.
+											bots ("farmzoids") to plant and
+											harvest on a small little farm. We
+											gave them directives to fetch water,
+											plant seeds, harvest fruit when it
+											was ready. It's fun watching them
+											travel around the farm going about
+											their business.
 										</p>
 
 										<p class="post-tech">
-											The frontend uses just HTML and a
+											The frontend uses HTML and a
 											JavaScript library called p5 which
 											simplifies drawing to the canvas
 											element.
 										</p>
 										<div class="post-footer">
-											<a href="">learn more</a>
 											<div
 												class="post-footer-icons-wrapper"
 											>
@@ -621,6 +666,7 @@
 							<div>
 								<div class="post">
 									<img
+										loading="lazy"
 										style="object-position: top;"
 										class="thumbnail"
 										src="./images/flask_api.png"
@@ -642,7 +688,6 @@
 											persisting books.
 										</p>
 										<div class="post-footer">
-											<a href="">learn more</a>
 											<div
 												class="post-footer-icons-wrapper"
 											>
@@ -652,7 +697,7 @@
 												/>
 												<img
 													class="tiny-icon"
-													src="./icons/flask.png"
+													src="./icons/flask3.png"
 												/>
 												<img
 													class="tiny-icon"
@@ -667,6 +712,7 @@
 							<div>
 								<div class="post">
 									<img
+										loading="lazy"
 										style="object-position: top;"
 										class="thumbnail"
 										src="./images/jobfinder.png"
@@ -682,17 +728,17 @@
 											in order to get a better
 											understanding of the types of skills
 											employers are looking for in the
-											area. I built up a comma-separated
-											value database of sorts, gathering
-											data on about 25 positions for each
-											job site. That was converted to
-											JSON. The app builds a word cloud
-											which increases the size of the
-											keyword relative to its frequency.
-											Having several years experience and
-											having a degree in Computer Science
-											were almost always the top
-											requirements across sites.
+											area. I built up a csv database of
+											sorts, gathering data on about 25
+											positions from each job site. That
+											data was converted to JSON and
+											cleaned for consistency. The app
+											builds a word cloud which increases
+											the size of the keyword relative to
+											its frequency. Having several years
+											experience and having a degree in
+											Computer Science were almost always
+											the top requirements across sites.
 										</p>
 
 										<p class="post-tech">
@@ -702,7 +748,6 @@
 											few JSON files.
 										</p>
 										<div class="post-footer">
-											<a href="">learn more</a>
 											<div
 												class="post-footer-icons-wrapper"
 											>
@@ -731,6 +776,7 @@
 							<div>
 								<div class="post">
 									<img
+										loading="lazy"
 										style="object-position: top;"
 										class="thumbnail"
 										src="./images/music_api.png"
@@ -742,18 +788,17 @@
 										</h5>
 										<p class="post-intro">
 											While taking a Web Backend
-											Engineering class, I was in a group
+											Engineering class, I had a group
 											project with two other students and
-											we built a functioning mp3 download
-											API. We took turns performing
-											developer and devops roles over the
-											course of the project. We used a
-											Linux virtual machine to spin up
-											several instances of our API. A
-											makefile was used to simplify
-											starting the task runners and
-											seeding the api with music
-											information.
+											we built an mp3 download API. We
+											took turns performing developer and
+											devops roles over the course of the
+											project. We used a Linux virtual
+											machine to spin up several instances
+											of our API. A makefile was used to
+											simplify starting the various
+											microservices and seeding the api
+											with music information.
 										</p>
 
 										<p class="post-tech">
@@ -765,7 +810,6 @@
 											to just 8ms.
 										</p>
 										<div class="post-footer">
-											<a href="">learn more</a>
 											<div
 												class="post-footer-icons-wrapper"
 											>
@@ -775,7 +819,7 @@
 												/>
 												<img
 													class="tiny-icon"
-													src="./icons/flask.png"
+													src="./icons/flask3.png"
 												/>
 												<img
 													class="tiny-icon"
@@ -798,6 +842,7 @@
 							<div>
 								<div class="post">
 									<img
+										loading="lazy"
 										style="object-position: top;"
 										class="thumbnail"
 										src="./images/quiz.png"
@@ -812,16 +857,15 @@
 											study for tests in my Computer
 											Communications class. Each chapter
 											has its own section. Questions and
-											answers are randomized and the app
-											shows you areas where you need to
-											study more.
+											answers are randomized. The app
+											shows the test-taker areas where he
+											or she needs to study more.
 										</p>
 
 										<p class="post-tech">
-											HTML5, CSS3, and Typescript.
+											HTML5, CSS3, and JavaScript.
 										</p>
 										<div class="post-footer">
-											<a href="">learn more</a>
 											<div
 												class="post-footer-icons-wrapper"
 											>
@@ -846,6 +890,7 @@
 							<div>
 								<div class="post">
 									<img
+										loading="lazy"
 										style="object-position: top;"
 										class="thumbnail"
 										src="./images/pokedex.png"
@@ -869,7 +914,6 @@
 											HTML5, CSS3, and Typescript.
 										</p>
 										<div class="post-footer">
-											<a href="">learn more</a>
 											<div
 												class="post-footer-icons-wrapper"
 											>
@@ -894,6 +938,7 @@
 							<div>
 								<div class="post">
 									<img
+										loading="lazy"
 										style="object-position: top;"
 										class="thumbnail"
 										src="./images/rock_paper_scissors.png"
@@ -910,11 +955,11 @@
 
 										<p class="post-tech">
 											HTML5, CSS3 for the frontend. On the
-											backend, it uses embedded JavasSript
-											templating engine and Node.js.
+											backend, it uses ejs, embedded
+											JavasScript templating engine, and
+											Node.js.
 										</p>
 										<div class="post-footer">
-											<a href="">learn more</a>
 											<div
 												class="post-footer-icons-wrapper"
 											>
@@ -939,6 +984,7 @@
 							<div>
 								<div class="post">
 									<img
+										loading="lazy"
 										style="object-position: top;"
 										class="thumbnail"
 										src="./images/algorithms_cpp.png"
@@ -953,9 +999,10 @@
 											implemented many interesting
 											algorithms in order to get a better
 											understanding of time-complexity and
-											big O notation. I programmed
-											dynamic-programming implementations
-											of longest-common-substrings and
+											big O notation. The above screenshot
+											is from a dynamic-programming
+											implementation of
+											longest-common-substrings and
 											sub-sequences.
 										</p>
 
@@ -963,7 +1010,6 @@
 											Built with C++.
 										</p>
 										<div class="post-footer">
-											<a href="">learn more</a>
 											<div
 												class="post-footer-icons-wrapper"
 											>
@@ -988,6 +1034,7 @@
 							<div>
 								<div class="post">
 									<img
+										loading="lazy"
 										style="object-position: top;"
 										class="thumbnail"
 										src="./images/github_finder.png"
@@ -1004,11 +1051,10 @@
 
 										<p class="post-tech">
 											HTML5, CSS3 and React for the
-											frontend. Talks to the GitHub api to
+											frontend. Talks to the GitHub API to
 											retrieve users.
 										</p>
 										<div class="post-footer">
-											<a href="">learn more</a>
 											<div
 												class="post-footer-icons-wrapper"
 											>
@@ -1022,7 +1068,7 @@
 												/>
 												<img
 													class="tiny-icon"
-													src="./icons/react3.png"
+													src="./icons/react2.png"
 												/>
 												<img
 													class="tiny-icon"
@@ -1037,6 +1083,7 @@
 							<div>
 								<div class="post">
 									<img
+										loading="lazy"
 										style="object-position: top;"
 										class="thumbnail"
 										src="./images/secure_chat_app.png"
@@ -1065,7 +1112,6 @@
 											distribute keys and messages.
 										</p>
 										<div class="post-footer">
-											<a href="">learn more</a>
 											<div
 												class="post-footer-icons-wrapper"
 											>
@@ -1079,7 +1125,7 @@
 												/>
 												<img
 													class="tiny-icon"
-													src="./icons/react3.png"
+													src="./icons/react2.png"
 												/>
 												<img
 													class="tiny-icon"
@@ -1094,6 +1140,7 @@
 							<div>
 								<div class="post">
 									<img
+										loading="lazy"
 										style="object-position: top;"
 										class="thumbnail"
 										src="./images/ecoquest.jpg"
@@ -1120,7 +1167,6 @@
 											system.
 										</p>
 										<div class="post-footer">
-											<a href="">learn more</a>
 											<div
 												class="post-footer-icons-wrapper"
 											>
@@ -1165,6 +1211,7 @@
 						<label>Message</label>
 						<textarea class="input-field" name="message"></textarea>
 
+						<div id="toast"></div>
 						<input id="submit-btn" type="submit" value="send" />
 					</form>
 				</div>
@@ -1172,5 +1219,6 @@
 		</div>
 
 		<script type="text/javascript" src="./script.js"></script>
+		<script type="text/javascript" src="./form.js"></script>
 	</body>
 </html>
