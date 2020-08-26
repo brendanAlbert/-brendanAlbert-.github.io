@@ -29,10 +29,14 @@ function setTheme(mode) {
 	}
 }
 
-let scrollLink = document.querySelector("#contact-link");
-scrollLink.addEventListener("click", () => {
-	let contactForm = document.querySelector("#contact-form");
-	contactForm.scrollIntoView({
-		behavior: "smooth",
-	});
-});
+// let scrollLink = document.querySelector("#contact-link");
+// scrollLink.addEventListener("click", () => {
+// 	// let contactForm = document.querySelector("#contact-form");
+// 	// contactForm.scrollIntoView({
+// 	// 	behavior: "smooth",
+// 	// });
+// 	window.scrollTo(
+// 		0,
+// 		document.querySelector(".section-container").scrollHeight
+// 	);
+// });

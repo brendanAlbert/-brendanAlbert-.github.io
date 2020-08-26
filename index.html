@@ -27,7 +27,7 @@
 								<div id="dot-3" class="browser-dot"></div>
 							</div>
 							<ul id="navigation">
-								<li><a id="contact-link">Contact</a></li>
+								<!-- <li><a id="contact-link">Contact</a></li> -->
 							</ul>
 						</div>
 
@@ -241,8 +241,106 @@
 								<div class="post">
 									<img
 										loading="lazy"
+										style="object-position: top;"
 										class="thumbnail"
-										src="./images/wrinkle_brain_games.png"
+										src="./images/wbg_drawing_lobby.png"
+										alt=""
+									/>
+									<div class="post-preview">
+										<h5 class="post-title">
+											multiplayer drawing game
+										</h5>
+										<p class="post-intro">
+											A multiplayer drawing game that
+											supports up to 12 players. Players
+											are given a prompt to draw and other
+											players have to guess the original
+											prompt from the drawing. Correct
+											guesses and good drawings win
+											points!
+										</p>
+
+										<p class="post-tech">
+											Uses HTML, CSS and JavaScript
+											(Angular) on the frontend. I learned
+											a lot about using the Canvas API.
+											Saving images drawn on the canvas
+											to, and retreiving from, the
+											backend. .Net Core backend and
+											signalr to maintain websockets.
+											Dockerized frontend and backend to
+											host from AWS EC2 instances. Git and
+											GitHub for version control.
+										</p>
+										<div class="post-footer">
+											<div class="links-wrapper">
+												<a
+													target="_blank"
+													href="http://34.215.175.198:4200/"
+													>see app</a
+												>
+												<a
+													target="_blank"
+													href="https://github.com/brendanAlbert/partygame"
+													>view code</a
+												>
+											</div>
+											<div
+												class="post-footer-icons-wrapper"
+											>
+												<img
+													class="tiny-icon"
+													src="./icons/angular.png"
+												/>
+												<img
+													class="tiny-icon"
+													src="./icons/html5_logo.png"
+												/>
+
+												<img
+													class="tiny-icon"
+													src="./icons/css3_logo.png"
+												/>
+												<img
+													class="tiny-icon"
+													src="./icons/typescript.png"
+												/>
+												<img
+													class="tiny-icon"
+													src="./icons/csharp2.png"
+												/>
+												<img
+													class="tiny-icon"
+													src="./icons/dotnet.png"
+												/>
+												<img
+													class="tiny-icon"
+													src="./icons/docker.png"
+												/>
+												<img
+													class="tiny-icon"
+													src="./icons/aws4.png"
+												/>
+												<img
+													class="tiny-icon"
+													src="./icons/git_logo.png"
+												/>
+												<img
+													class="tiny-icon"
+													src="./icons/github_logo.png"
+												/>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div class="post">
+									<img
+										loading="lazy"
+										class="thumbnail"
+										src="./images/wbg_menu.png"
 										alt=""
 									/>
 									<div class="post-preview">
@@ -269,7 +367,7 @@
 											<div class="links-wrapper">
 												<a
 													target="_blank"
-													href="http://52.26.214.136:4200"
+													href="http://34.215.175.198:4200/"
 													>see app</a
 												>
 												<a
@@ -365,7 +463,7 @@
 											<div class="links-wrapper">
 												<a
 													target="_blank"
-													href="http://52.26.214.136:4200"
+													href="http://34.215.175.198:4200/"
 													>see app</a
 												>
 												<a
@@ -1201,22 +1299,37 @@
 					<h3 style="text-align: center;">get in touch</h3>
 
 					<form action="" id="contact-form">
-                        <div class="inputs-container">
-                            <label>Name</label>
-                            <input class="input-field" type="text" name="name" />
-    
-                            <label>Subject</label>
-                            <input class="input-field" type="text" name="subject" />
-    
-                            <label>Email</label>
-                            <input class="input-field" type="email" name="email" />
-    
-                            <label>Message</label>
-                            <textarea class="input-field" name="message"></textarea>
-    
-                            <div id="toast"></div>
-                            <input id="submit-btn" type="submit" value="send" />
-                        </div>
+						<div class="inputs-container">
+							<label>Name</label>
+							<input
+								class="input-field"
+								type="text"
+								name="name"
+							/>
+
+							<label>Subject</label>
+							<input
+								class="input-field"
+								type="text"
+								name="subject"
+							/>
+
+							<label>Email</label>
+							<input
+								class="input-field"
+								type="email"
+								name="email"
+							/>
+
+							<label>Message</label>
+							<textarea
+								class="input-field"
+								name="message"
+							></textarea>
+
+							<div id="toast"></div>
+							<input id="submit-btn" type="submit" value="send" />
+						</div>
 					</form>
 				</div>
 			</section>

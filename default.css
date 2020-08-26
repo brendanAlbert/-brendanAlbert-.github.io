@@ -125,6 +125,10 @@ h6 {
 	overflow: auto;
 }
 
+.s4 {
+	padding-bottom: 100px;
+}
+
 .main-container {
 	width: 1200px;
 	margin: 0 auto;
@@ -409,9 +413,10 @@ h6 {
 
 .thumbnail {
 	width: 100%;
-	height: 180px;
+	/* height: 180px; */
 	display: block;
-	object-fit: cover;
+	/* object-fit: cover; */
+	object-fit: contain;
 }
 
 .post-preview {
